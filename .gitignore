@@ -1,0 +1,13 @@
+# Local working files
+# Local provider plugins and cached modules
+.terraform/
+
+# State (never commit)
+# State files containing sensitive date (IDs, IPs, secrets)
+*.tfstate
+*.tfstate.*
+
+# Variable files holding real values or secrets
+*.tfvars
+*.tfvars.json
+!terraform.tfvars.example
